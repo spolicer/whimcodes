@@ -219,6 +219,13 @@
   font-family:starry;
 }
 
+#misha.rw-tag:before {
+  content:var(--unicode);
+  font-family:misha;
+  font-size: 55px;
+  text-align: center;
+}
+
 .rw-tag a.user-tagged {
   background:rgba(var(--white), 0.85);
   border:1px solid rgba(var(--c1), 0.75);
@@ -263,10 +270,41 @@
   z-index:-2;
 }
 
-#oc {
+
+#alexei {
+  --unicode:'\ee25';
+  --c1:154, 162, 181;
+  --c2:103,128,161;
+}
+
+#ezio {
   --unicode:'\ee22';
-  --c1:204,176,190;
-  --c2:176,190,204;
+  --c1:158, 79, 74;
+  --c2: 112,93,107;
+}
+
+#harper {
+  --unicode:'\e904';
+  --c1:119, 178, 201;
+  --c2:214, 185, 154;
+}
+
+#magpie {
+  --unicode:'\a95';
+--c1: 242, 148, 162;
+--c2: 242, 202, 136;
+}
+
+#misha {
+  --unicode:'\e900';
+  --c1: 69, 62, 59;
+--c2:  163, 132, 98;
+}
+
+#riley {
+  --unicode:'\ee23';
+  --c1:196, 106, 90;
+  --c2: 210,155,120;
 }
 
 #ocs {
