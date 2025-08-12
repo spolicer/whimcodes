@@ -595,7 +595,7 @@ flex-direction: row-reverse;
     width: 310px;
     height: 445px;
     position: absolute;
-    top: 31px;
+    top: 38px;
     left: 0px;
     overflow: auto;
     display: flex;
@@ -605,7 +605,7 @@ flex-direction: row-reverse;
     align-content: flex-start;
   gap: 2px;
     padding: 10px 10px 0px 10px;
-   background: linear-gradient(#F0F0F0, #F0F0F0) padding-box, linear-gradient(to top, rgba(var(--main), 0.8), rgba(var(--alt), 0.8)) border-box;
+   background: linear-gradient(#F0F0F0, #F0F0F0) padding-box, linear-gradient(to top, rgba(var(--main), 1), rgba(var(--alt), 1)) border-box;
    border-top: 10px solid transparent;
       text-shadow: 1px 0px #fffd, 0px -1px #fffd, -1px 0px #fffd, 0px 1px #fffd;!important
 }
