@@ -1,3 +1,6 @@
+body {
+  background: rgba(226,226,226);
+  }
 
 @font-face {
     font-family: 'Kinda';
@@ -605,11 +608,11 @@ flex-direction: row-reverse;
     padding: 10px 10px 0px 10px;
    background: linear-gradient(#F0F0F0, #F0F0F0) padding-box, linear-gradient(to top, rgba(var(--main), 0.8), rgba(var(--alt), 0.8)) border-box;
    border-top: 10px solid transparent;
-  text-shadow: 1px 0px #fffd, 0px -1px #fffd, -1px 0px #fffd, 0px 1px #fffd;
+      text-shadow: 1px 0px #fffd, 0px -1px #fffd, -1px 0px #fffd, 0px 1px #fffd;!important
 }
 
-.ship {
-  flex: 1 0 auto;
+.mrmoon-ship {
+flex: 1 0 auto;
     background: #f4f4f4;
     border: 1px solid rgba(var(--alt), 75);
     border-radius: 8px;
@@ -621,22 +624,33 @@ flex-direction: row-reverse;
     font-weight: 600;
     line-height: 100%;
     margin: 2px;
-    padding: 3px 6px 3px;
+    padding: 8px 5px 8px;;
     position: relative;
     text-transform: uppercase;
 }
 
-.ship span {
-    color: rgba(var(--main), 0.85);
+#like:before, #hate:before, #love:before, #family:before {
+    content: '\a39';
+  font-family: 'Starry';
+   color: rgba(var(--main), 0.95);
     border-right: 1px solid #e0e0e0;
-    font-size: 22px;
+    font-size: 24px;
     margin: 2px 10px 4px 0px;
     padding: 5px;
-}
+  font-weight: 300;
+   }
 
-.ship.npc span {
-    color: #5554!important;
-}
+#hate:before { 
+   content: '\a91';
+   } 
+   
+#love:before { 
+content: '\a96';
+     }
+
+#family:before { 
+ content: '\a50';
+}  
 
 .mm-shipkey {
  background: rgba(var(--white));
