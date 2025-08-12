@@ -185,8 +185,32 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
   text-align:justify;
 }
 
-.mrmoon #mm-thread:checked+label ~ .mrmoon-threadz div,
-.mrmoon #mm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+/*===================*/
+/* i don't wanna talk about it
+/*===================*/
+
+.mrmoon #ALEXEImm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #ALEXEImm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
+.mrmoon #EZIOmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #EZIOmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
+.mrmoon #HARPERmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #HARPERmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
+.mrmoon #MAGPIEmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #MAGPIEmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
+.mrmoon #MISHAmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #MISHAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
+.mrmoon #RILEYmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #RILEYmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
 /* ANYTHING THAT NEEDS TO DISAPPER GOES HERE !!! */ 
