@@ -201,6 +201,10 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #HARPERmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
+.mrmoon #JOLIEmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #JOLIEmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
 .mrmoon #MAGPIEmm-thread:checked+label ~ .mrmoon-threadz div,
 .mrmoon #MAGPIEmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
@@ -808,6 +812,16 @@ color: rgba(var(--main), 0.8);
   --aes2: url(https://i.pinimg.com/1200x/0b/f8/fb/0bf8fb8b33435fa26c4ddeb82dabcdfd.jpg);
 
 }
+
+#jolie {
+--main: 	134, 191, 189;
+--alt: 185, 178, 219; 
+    --hover1: url(https://i.ibb.co/kVxvcSYy/h010.webp) ;
+  --hover2: url(https://i.postimg.cc/KzzfJgdd/h24.png);
+  --aes1: url(https://i.pinimg.com/736x/86/79/7e/86797e8aa9fe4437fa93042c449beadb.jpg);
+  --aes2: url(https://i.pinimg.com/1200x/1f/3b/3a/1f3b3adc5a8fd0c65e50c052e73da3aa.jpg);
+}
+
 
 #magpie {
 --main: 220, 140, 115;
