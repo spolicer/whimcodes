@@ -833,8 +833,8 @@ color: rgba(var(--main), 0.8);
 }
 
 #misha {
---main: 69, 62, 59;
---alt:  202, 173, 136;
+  --main: 134, 144, 162;
+--alt:  171, 155, 142;
     --hover1: url(https://i.postimg.cc/rsZzPZBp/hp12.png);
   --hover2: url(https://i.postimg.cc/jqMw4p5K/h4.png);
   --aes1: url(https://i.pinimg.com/736x/77/ae/b6/77aeb641b377190e73877bc1241bae2b.jpg);
