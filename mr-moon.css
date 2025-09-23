@@ -1,3 +1,6 @@
+body {
+  background: rgba(226,226,226);
+  }
 
 @font-face {
     font-family: 'Kinda';
@@ -19,7 +22,11 @@
     src: url('https://files.jcink.net/uploads2/clowncityx/OhBearyCloudyDingbats_Regular.ttf');
      }
 
-.mm-tl::-webkit-scrollbar, .mm-ships::-webkit-scrollbar, .mm-threads::-webkit-scrollbar, .mrmoon-timeline::-webkit-scrollbar. .mrmoon-text::-webkit-scrollbar, .mrmoon::-webkit-scrollbar   {
+.mm-tl::-webkit-scrollbar, .mm-ships::-webkit-scrollbar, .mm-threads::-webkit-scrollbar, .mrmoon-timeline::-webkit-scrollbar. .mrmoon-text::-webkit-scrollbar, .mrmoon::-webkit-scrollbar, #tracker.mrmoon-text::-webkit-scrollbar {
+  display: none;
+}
+
+.mrmoon::-webkit-scrollbar {
   display: none;
 }
 
@@ -39,7 +46,7 @@
  border: 1px solid rgba(var(--alt), 0.25);
     border-radius: 10px 10px 20px 20px;
     overflow: hidden;
-     background-size: 20px 20px;
+     background-size: 30px 30px;
   background-image:
     linear-gradient(to right, rgba(var(--main), 0.20) 2px, transparent 1px),
     linear-gradient(to bottom, rgba(var(--alt), 0.20) 2px, transparent 1px); 
@@ -213,6 +220,10 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #MISHAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
+.mrmoon #NANAmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #NANAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
 .mrmoon #RILEYmm-thread:checked+label ~ .mrmoon-threadz div,
 .mrmoon #RILEYmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
@@ -318,7 +329,6 @@ background-image:var(--bg-img);
 }
 
 .mm-sticker1 {
-    line-height: normal;
   position: absolute;
     top: -95px;
     right: -330px;
@@ -330,7 +340,6 @@ background-image:var(--bg-img);
 
 
 .mm-sticker2 {
-    line-height: normal;
      top: 190px;
     left: 525px;
     z-index: 13;
@@ -634,7 +643,7 @@ flex-direction: row-reverse;
     width: 310px;
     height: 445px;
     position: absolute;
-    top: 38px;
+    top: 31px;
     left: 0px;
     overflow: auto;
     display: flex;
@@ -644,7 +653,7 @@ flex-direction: row-reverse;
     align-content: flex-start;
   gap: 2px;
     padding: 10px 10px 0px 10px;
-   background: linear-gradient(#F0F0F0, #F0F0F0) padding-box, linear-gradient(to top, rgba(var(--main), 1), rgba(var(--alt), 1)) border-box;
+   background: linear-gradient(#F0F0F0, #F0F0F0) padding-box, linear-gradient(to top, rgba(var(--main), 0.8), rgba(var(--alt), 0.8)) border-box;
    border-top: 10px solid transparent;
       text-shadow: 1px 0px #fffd, 0px -1px #fffd, -1px 0px #fffd, 0px 1px #fffd;!important
 }
@@ -750,7 +759,6 @@ position: absolute;
 }
 
 .mm-sticker3 {
-    line-height: normal;
 color: rgba(var(--main), 0.8);
     font-size: 60px;
     text-shadow: rgb(244, 244, 244) 3px 0px 0px, rgb(244, 244, 244) 2.83487px 0.981584px 0px, rgb(244, 244, 244) 2.35766px 1.85511px 0px, rgb(244, 244, 244) 1.62091px 2.52441px 0px, rgb(244, 244, 244) 0.705713px 2.91581px 0px, rgb(244, 244, 244) -0.287171px 2.98622px 0px, rgb(244, 244, 244) -1.24844px 2.72789px 0px, rgb(244, 244, 244) -2.07227px 2.16926px 0px, rgb(244, 244, 244) -2.66798px 1.37182px 0px, rgb(244, 244, 244) -2.96998px 0.42336px 0px, rgb(244, 244, 244) -2.94502px -0.571704px 0px, rgb(244, 244, 244) -2.59586px -1.50383px 0px, rgb(244, 244, 244) -1.96093px -2.27041px 0px, rgb(244, 244, 244) -1.11013px -2.78704px 0px, rgb(244, 244, 244) -0.137119px -2.99686px 0px, rgb(244, 244, 244) 0.850987px -2.87677px 0px, rgb(244, 244, 244) 1.74541px -2.43999px 0px, rgb(244, 244, 244) 2.44769px -1.73459px 0px, rgb(244, 244, 244) 2.88051px -0.838247px 0px;
@@ -765,7 +773,6 @@ color: rgba(var(--main), 0.8);
 }
 
 .mm-sticker4 {
-    line-height: normal;
   color: rgba(var(--alt), 0.8);
     font-size: 60px;
     text-shadow: rgb(244, 244, 244) 3px 0px 0px, rgb(244, 244, 244) 2.83487px 0.981584px 0px, rgb(244, 244, 244) 2.35766px 1.85511px 0px, rgb(244, 244, 244) 1.62091px 2.52441px 0px, rgb(244, 244, 244) 0.705713px 2.91581px 0px, rgb(244, 244, 244) -0.287171px 2.98622px 0px, rgb(244, 244, 244) -1.24844px 2.72789px 0px, rgb(244, 244, 244) -2.07227px 2.16926px 0px, rgb(244, 244, 244) -2.66798px 1.37182px 0px, rgb(244, 244, 244) -2.96998px 0.42336px 0px, rgb(244, 244, 244) -2.94502px -0.571704px 0px, rgb(244, 244, 244) -2.59586px -1.50383px 0px, rgb(244, 244, 244) -1.96093px -2.27041px 0px, rgb(244, 244, 244) -1.11013px -2.78704px 0px, rgb(244, 244, 244) -0.137119px -2.99686px 0px, rgb(244, 244, 244) 0.850987px -2.87677px 0px, rgb(244, 244, 244) 1.74541px -2.43999px 0px, rgb(244, 244, 244) 2.44769px -1.73459px 0px, rgb(244, 244, 244) 2.88051px -0.838247px 0px;
@@ -813,6 +820,7 @@ color: rgba(var(--main), 0.8);
 
 }
 
+
 #jolie {
 --main: 	134, 191, 189;
 --alt: 185, 178, 219; 
@@ -833,18 +841,26 @@ color: rgba(var(--main), 0.8);
 }
 
 #misha {
-  --main: 134, 144, 162;
---alt:  171, 155, 142;
+--main: 69, 62, 59;
+--alt:  202, 173, 136;
     --hover1: url(https://i.postimg.cc/rsZzPZBp/hp12.png);
   --hover2: url(https://i.postimg.cc/jqMw4p5K/h4.png);
   --aes1: url(https://i.pinimg.com/736x/77/ae/b6/77aeb641b377190e73877bc1241bae2b.jpg);
   --aes2: url(https://i.pinimg.com/736x/49/83/1b/49831b1a26ddb37f674209a9a4765e06.jpg);
 }
 
+#nana {
+  --main: 130, 95, 111;
+  --alt: 179, 107, 117;
+  --hover1: url(https://i.postimg.cc/vT6G1FbJ/h6.png);
+  --hover2: url(https://i.postimg.cc/sxWSygHq/h13.png) ;
+  --aes1: url(https://i.pinimg.com/1200x/50/b2/17/50b2170f4807cac23b00b41561b5926e.jpg);
+  --aes2: url(https://i.pinimg.com/736x/9b/62/ca/9b62ca8bffdaa41b068e9e9d69f07d6b.jpg);
+}
 
 #riley {
-  --main:173, 91, 76;
-  --alt: 204, 147, 96;
+  --main: 183, 94, 78;
+  --alt: 218, 166, 99;
   --hover1: url(https://i.postimg.cc/KYHgbJMB/h39.png);
   --hover2: url(https://i.postimg.cc/YSPY1Z4y/h37.png) ;
   --aes1: url(https://i.pinimg.com/736x/f8/59/8d/f8598da316d312722abd7328af300505.jpg);
