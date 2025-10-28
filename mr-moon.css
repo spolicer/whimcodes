@@ -192,6 +192,10 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #ALEXEImm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
+.mrmoon #ELODIAmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #ELODIAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
 .mrmoon #EZIOmm-thread:checked+label ~ .mrmoon-threadz div,
 .mrmoon #EZIOmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
@@ -794,6 +798,15 @@ color: rgba(var(--main), 0.8);
   --hover2: url(https://i.postimg.cc/4xZ1Sw46/h5.png) ;
   --aes1: url(https://i.pinimg.com/736x/62/e9/fc/62e9fc1f66cd097ec312d693cb1c86c8.jpg);
   --aes2: url(https://i.pinimg.com/736x/31/a4/99/31a499995cc52390fe5214f2fdf4a5ab.jpg);
+}
+
+#elodia {
+  --main: 148, 92, 100;
+  --alt: 147, 124, 156;
+  --hover1: url(https://i.postimg.cc/Ls5bxwbG/h16.png);
+  --hover2: url(https://i.postimg.cc/Z5S2539Q/TRACKER2.png);
+  --aes1: url(https://i.pinimg.com/736x/b2/fb/38/b2fb387859e6d7ce2cf6e9bb7a016dba.jpg);
+  --aes2: url(https://i.pinimg.com/736x/50/23/73/5023739067583b9532f96c5c93438720.jpg);
 }
 
 #ezio {
