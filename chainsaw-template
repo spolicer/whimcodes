@@ -1,0 +1,285 @@
+.chainsaw {
+   position:relative;
+  margin:50px auto 25px;
+  width:440px;
+  border-radius:20px;
+  color:rgba(var(--black));
+  font-family:urbanist;
+  font-size:15px;
+  font-weight:500;
+  line-height:21px;
+  
+    --white:243,243,243;
+  --gray:218,218,218;
+  --black:62,62,62;
+}
+
+.csm-back {
+      display: block;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    right: 20px;
+    bottom: 20px;
+    display: block;
+      background-image: var(--aes);
+  background-size: cover;
+    border-radius: 10px;
+}
+
+.csm-back overlay {
+     background: rgba(var(--white)) linear-gradient(to bottom left, rgba(var(--c1)), rgba(var(--c2)));
+    position: absolute;
+  opacity: 80%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   border-radius: 10px;
+}
+
+.csm-int {
+  position: relative;
+    display: block;
+    background-color: rgba(var(--white));
+    border-radius: 10px;
+    border: 1px solid rgba(var(--gray));
+    box-shadow: rgba(var(--black));
+}
+
+.csm-int::before {
+  content: '';
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to bottom, rgba(var(--white), 0.15), rgba(var(--c2), 0.15));
+}
+
+.csm-top {
+  display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(var(--black));
+   border-radius: 10px 10px 0px 0px;
+}
+
+.chainsaw date {
+  display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font: 500 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  background: rgba(var(--white));
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px 80px;
+}
+
+.chainsaw date b {
+      background: -webkit-linear-gradient(left, rgba(var(--c1)), rgba(var(--c2)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-right: 6px;
+}
+
+.csm-top:after {
+  content: "\e921 \e920";
+    letter-spacing: 10px;
+    padding: 10px;
+ font-size: 18px;
+    font-family: Starry;
+    color: rgba(var(--white));
+}
+
+.csm-post {
+  display: block;
+    padding: 45px;
+    letter-spacing: .75px;
+}
+
+.csm-int b {
+  color: rgba(var(--c1));
+    background: -webkit-linear-gradient(bottom left, rgba(var(--c1)), rgba(var(--c2)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.csm-int i {
+  opacity:0.75; 
+}
+
+.csm-int b i {
+  opacity:1;
+}
+
+.csm-int u {
+  text-decoration:none;
+  border-bottom:2px solid rgba(var(--c2), 0.75);
+  font-weight:600;
+}
+
+.csm-int a {
+  background:rgba(var(--c1));
+  padding:2.5px 5px;
+  border-radius:5px;
+  font-size:11.5px;
+  font-weight:700;
+  text-transform:uppercase;
+  color:rgba(var(--white));
+}
+
+.csm-int note {
+  display:block;
+  margin-top:40px;
+  background:rgba(var(--c2), 0.15);
+  border: 1px solid rgba(var(--gray));
+  padding: 4px 15px;
+  border-radius:5px;
+  color:rgba(var(--black), 0.75);
+}
+
+.csm-int span.dice-roll {
+  margin-top:40px;
+  background:rgba(var(--c2), 0.15);
+  border: 1px solid rgba(var(--gray));
+  padding: 4px 15px;
+  border-radius:5px;
+  color:rgba(var(--black), 0.75);
+}
+
+.csm-int span.dice-roll b {
+  text-transform:uppercase;
+}
+
+.csm-tag {
+padding-top: 50px;
+    text-align: right;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: left;
+}
+
+.csm-tag a.user-tagged {
+      display: inline-block;
+    background-color: rgba(var(--black));
+    color: rgba(var(--white), 0.85);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 2.5px 7.5px;
+    border-radius: 7.5px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+   z-index: 2;
+}
+
+.csm-tag:before {
+    content:var(--unicode);
+  font-family:goofy;
+ display: block;
+  position: absolute;
+  top: 20px;
+  right: -35px;
+    width:100px;
+    height: 90px;
+    text-align: center;
+    font-size: 90px;
+    color: rgba(var(--c2));
+    line-height: 90px;
+    background: -webkit-linear-gradient(rgba(var(--c1), 0.55), rgba(var(--c2), 0.25));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  rotate: -10deg;
+ 
+}
+
+#starry.csm-tag:before {
+  content:var(--unicode);
+  font-family:starry;
+}
+
+#misha.csm-tag:before {
+  content:var(--unicode);
+  font-family:misha;
+}
+
+
+
+/*===================*/
+/* oc styles
+/*===================*/
+
+#alexei {
+  --unicode:'\ee25';
+  --aes: url(https://i.pinimg.com/736x/36/41/58/3641580c99173572362d1693fe712728.jpg);
+  --c1:107, 125, 148;
+  --c2:136, 165, 180;
+}
+
+#elodia {
+  --unicode:'\a12';
+  --aes: url(https://i.pinimg.com/736x/8e/79/d7/8e79d7a12a54fde1aa4fa579e7dab0d0.jpg);
+ --c1: 148, 92, 100;
+  --c2: 147, 124, 156;
+}
+
+#ezio {
+  --unicode:'\ee22';
+  --aes: url(https://i.pinimg.com/736x/26/19/75/26197526e18296c7d7a71ca99e61d910.jpg);
+  --c1:158, 79, 74;
+  --c2: 112,93,107;
+}
+
+#harper {
+  --unicode:'\e904';
+  --aes: url(https://i.pinimg.com/736x/a5/5d/5d/a55d5de2e05e4913358e81b3f8c05d77.jpg);
+  --c1:119, 178, 201;
+  --c2:196, 167, 135;
+}
+
+#jolie {
+  --unicode:'\a1';
+  --aes: url(https://i.pinimg.com/1200x/a1/0d/06/a10d065b63befce6ea4299f718d8ae4f.jpg);
+--c1: 147, 188, 194;
+--c2: 161, 149, 199;
+}
+
+#magpie {
+  --unicode:'\e939';
+  --aes: url(https://i.pinimg.com/736x/26/5a/5c/265a5cf295c45863b2f2f1c649e6349f.jpg);
+--c1: 178, 118, 140;
+--c2:  197, 128, 128; 
+}
+
+#misha {
+   --unicode:'\e900';
+  --aes: url(https://i.pinimg.com/736x/74/d8/2c/74d82c27b17878ed1f75a90c8e4a2306.jpg);
+  --c1: 134, 144, 162;
+--c2:  171, 155, 142;
+}
+
+#nana {
+   --unicode:'\ee24';
+  --aes: url(https://i.pinimg.com/736x/7f/db/ab/7fdbab88ec1231b62a728ad5d29c8296.jpg);
+--c1: 168, 128, 151;
+  --c2: 163, 116, 124;
+}
+
+#riley {
+   --unicode:'\ee23';
+  --aes: url(https://i.pinimg.com/736x/c8/53/90/c853901f85d037e6b0ccc5c5ca796cee.jpg);
+  --c1:158, 84, 84;
+  --c2: 204, 147, 96;
+}
