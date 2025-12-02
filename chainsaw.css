@@ -55,7 +55,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background: linear-gradient(to bottom, rgba(var(--white), 0.15), rgba(var(--c2), 0.15));
+        background: linear-gradient(to bottom, rgba(var(--white), 0.15), rgba(var(--c2), 0.02));
 }
 
 .csm-top {
