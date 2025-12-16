@@ -40,23 +40,24 @@
 
 .csm-int {
   position: relative;
-    display: inline-grid;;
+    display: block;
     background-color: rgba(var(--white));
     border-radius: 10px;
     border: 1px solid rgba(var(--gray));
     box-shadow: rgba(var(--black));
+  z-index: 1;
 }
 
-.csm-int::before {
+.csm-post::before {
   content: '';
     display: block;
     position: absolute;
-    top: 60px;
+    top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background: linear-gradient(to bottom, rgba(var(--white), 0.15), rgba(var(--c2), 0.25));
-  z-index: 1;
+    background: linear-gradient(to bottom, rgba(var(--white), 0.15), rgba(var(--c2), 0.20));
+  z-index: -1;
 }
 
 .csm-top {
