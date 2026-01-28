@@ -280,6 +280,13 @@ padding-top: 50px;
   --c2: 163, 116, 124;
 }
 
+#nicky {
+   --unicode:'\ee21';
+  --aes: url(https://i.pinimg.com/736x/da/3b/bc/da3bbcb61dcb2d511f4861ba894959e7.jpg);
+  --c1: 115, 77, 73;
+  --c2: 130, 127, 94;
+}
+
 #riley {
    --unicode:'\ee23';
   --aes: url(https://i.pinimg.com/736x/c8/53/90/c853901f85d037e6b0ccc5c5ca796cee.jpg);
