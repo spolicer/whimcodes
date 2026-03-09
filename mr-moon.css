@@ -844,8 +844,8 @@ color: rgba(var(--main), 0.8);
 
 
 #magpie {
---main: 220, 140, 115;
---alt: 147, 102, 157; 
+--main: 137, 123, 176;
+--alt: 196, 145, 180; 
     --hover1: url(https://i.postimg.cc/5NS21B5J/h015.png) ;
   --hover2: url(https://i.postimg.cc/kXvg9QQ0/h012.png);
   --aes1: url(https://i.pinimg.com/1200x/ff/61/d9/ff61d97fd163906c6a7b75b1df775c14.jpg);
