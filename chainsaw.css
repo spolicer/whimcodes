@@ -294,6 +294,14 @@ padding-top: 50px;
   --c2: 130, 127, 94;
 }
 
+#prue {
+  --unicode:'\a12';
+  --aes: url(https://i.pinimg.com/1200x/ec/d8/9b/ecd89b0fb20bbf9cc804c3d1518cec2f.jpg);
+ --c1: 152, 124, 155;
+  --c2: 153, 158, 141;
+}
+
+
 #riley {
    --unicode:'\ee23';
   --aes: url(https://i.pinimg.com/736x/c8/53/90/c853901f85d037e6b0ccc5c5ca796cee.jpg);
