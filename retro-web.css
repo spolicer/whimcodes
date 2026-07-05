@@ -319,6 +319,13 @@
   --c2: 179, 107, 117;
 }
 
+#prue {
+  --unicode:'\a12';
+  --aes: url(https://i.pinimg.com/1200x/ec/d8/9b/ecd89b0fb20bbf9cc804c3d1518cec2f.jpg);
+ --c1: 152, 124, 155;
+  --c2: 153, 158, 141;
+}
+
 #riley {
   --unicode:'\ee23';
   --c1:173, 91, 76;
