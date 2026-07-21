@@ -220,6 +220,10 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #MISHAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
+.mrmoon #NICKYmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #NICKYmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
 .mrmoon #NANAmm-thread:checked+label ~ .mrmoon-threadz div,
 .mrmoon #NANAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
