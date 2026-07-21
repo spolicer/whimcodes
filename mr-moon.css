@@ -196,6 +196,10 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #ELODIAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
+.mrmoon #ESFIRmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #ESFIRmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+}
+
 .mrmoon #EZIOmm-thread:checked+label ~ .mrmoon-threadz div,
 .mrmoon #EZIOmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
@@ -220,8 +224,8 @@ background: -webkit-linear-gradient(125deg, rgba(var(--main)), rgba(var(--alt)))
 .mrmoon #NANAmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
-.mrmoon #NICKYmm-thread:checked+label ~ .mrmoon-threadz div,
-.mrmoon #NICKYmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
+.mrmoon #PRUEmm-thread:checked+label ~ .mrmoon-threadz div,
+.mrmoon #PRUEmm-ship:checked+label ~ .mrmoon-shipz div { transform:scale(1);
 }
 
 .mrmoon #RILEYmm-thread:checked+label ~ .mrmoon-threadz div,
@@ -811,6 +815,16 @@ color: rgba(var(--main), 0.8);
   --hover2: url(https://i.postimg.cc/Z5S2539Q/TRACKER2.png);
   --aes1: url(https://i.pinimg.com/736x/b2/fb/38/b2fb387859e6d7ce2cf6e9bb7a016dba.jpg);
   --aes2: url(https://i.pinimg.com/736x/50/23/73/5023739067583b9532f96c5c93438720.jpg);
+}
+
+#esfir {
+ --main: 201, 167, 139;
+  --alt: 176, 155, 170;
+    --hover1: url(https://i.postimg.cc/tC2Y4Pfn/h46.png) ;
+  --hover2: url(https://i.postimg.cc/Pxpmmyg7/h24.png);
+  --aes1: url(https://i.pinimg.com/1200x/31/3e/81/313e81f5057c2e6e297966419b91c4bb.jpg);
+  --aes2: url(https://i.pinimg.com/736x/3e/52/fb/3e52fb8cbf5007e1816e325e95b5c3e4.jpg);
+
 }
 
 #ezio {
